@@ -1,0 +1,62 @@
+.good {
+  color: green;
+}
+.bad {
+  color: red;
+}
+.really-bad {
+  color: red;
+  font-weight: 900;
+}
+.really-good {
+  color: green;
+  font-weight: 900;
+}
+.info {
+  color: blue;
+}
+.luck {
+  color: yellowgreen;
+}
+* {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  background-color: black;
+  color: white;
+  word-wrap: break-word;
+}
+input {
+  border: 1px solid white;
+}
+body {
+  overflow-x: hidden;
+}
+#console {
+  border: 2px solid white;
+  background-color: black;
+  height: 450px;
+  overflow-x: hidden;
+  color: white;
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+h2 {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+button {
+  border: none;
+  outline: 2px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+#console::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
